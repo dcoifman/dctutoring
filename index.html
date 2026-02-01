@@ -40,9 +40,10 @@
   <!-- Hero Section -->
   <section class="hero" id="hero">
     <div class="hero-bg">
-      <div class="grid-pattern"></div>
-      <div class="gradient-orb orb-1"></div>
-      <div class="gradient-orb orb-2"></div>
+      <div class="hero-gradient"></div>
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      <div class="hero-grid"></div>
     </div>
     <div class="hero-content">
       <div class="hero-badge reveal-fade">
@@ -68,17 +69,44 @@
         <a href="#services" class="btn btn-secondary">Explore Services</a>
       </div>
       <div class="hero-stats reveal-fade" data-delay="5">
-        <div class="stat">
-          <span class="stat-number" data-count="2">0</span><span class="stat-suffix"></span>
-          <span class="stat-label">Letter Grade Improvement (C→A)</span>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+          </div>
+          <div class="stat-content">
+            <span class="stat-value">C → A</span>
+            <span class="stat-label">Typical Grade Jump</span>
+          </div>
         </div>
-        <div class="stat">
-          <span class="stat-number" data-count="100">0</span><span class="stat-suffix">%</span>
-          <span class="stat-label">Online & Flexible</span>
+        <div class="stat-divider"></div>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+              <line x1="8" y1="21" x2="16" y2="21"/>
+              <line x1="12" y1="17" x2="12" y2="21"/>
+            </svg>
+          </div>
+          <div class="stat-content">
+            <span class="stat-value">100% Online</span>
+            <span class="stat-label">Flexible Scheduling</span>
+          </div>
         </div>
-        <div class="stat">
-          <span class="stat-number" data-count="40">$</span><span class="stat-suffix">-45/hr</span>
-          <span class="stat-label">Package Rate</span>
+        <div class="stat-divider"></div>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="1" x2="12" y2="23"/>
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+          </div>
+          <div class="stat-content">
+            <span class="stat-value">$40–45<span class="stat-unit">/hr</span></span>
+            <span class="stat-label">Package Rates</span>
+          </div>
         </div>
       </div>
     </div>
